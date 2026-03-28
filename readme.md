@@ -3,7 +3,7 @@ Este projeto foi desenvolvido durante a **Imersão Dados com Python**, oferecida
 O objetivo é analisar dados salariais da área de dados, explorando informações por meio de planilhas, gráficos e dashboards interativos, utilizando Python.
 
 ## 🚀 Dashboard Online
-O dashboard final está disponível Streamlit: 🔗 https://imersao-de-dados-com-python-alura-krzb4qnr3azh8gsdggt6fs.streamlit.app/
+O dashboard final está disponível Streamlit: 🔗 https://imersao-de-dados-com-python-alura-jose-souza.streamlit.app/
 
 Nele, é possível filtrar os dados por:
 - Ano
