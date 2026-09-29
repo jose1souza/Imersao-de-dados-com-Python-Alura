@@ -1,32 +1,88 @@
-# 📊 Imersão Dados com Python – Alura
-Este projeto foi desenvolvido durante a **Imersão Dados com Python**, oferecida pela **Alura** em janeiro de 2026.  
-O objetivo é analisar dados salariais da área de dados, explorando informações por meio de planilhas, gráficos e dashboards interativos, utilizando Python.
+# 📊 Dashboard de Salários na Área de Dados
 
-## 🚀 Dashboard Online
-O dashboard final está disponível Streamlit: 🔗 https://imersao-de-dados-com-python-alura-jose-souza.streamlit.app/
+Este projeto foi desenvolvido durante a Imersão Dados com Python da Alura e agora foi aprimorado com uma interface mais profissional, filtros avançados e uma visão executiva dos principais indicadores do mercado de dados.
 
-Nele, é possível filtrar os dados por:
-- Ano
-- Senioridade
-- Tipo de contrato
-- Tamanho da empresa  
-Além de visualizar métricas e gráficos interativos sobre salários na área de dados.
+## 🚀 Dashboard online
 
-## 🛠️ Tecnologias Utilizadas
+O projeto também está publicado no Streamlit:
+
+https://imersao-de-dados-com-python-alura-jose-souza.streamlit.app/
+
+## 🧠 Recursos da aplicação
+
+- Filtros por ano, senioridade, tipo de contrato, tamanho da empresa, país e cargo
+- Busca por nome de cargo
+- Faixa salarial interativa em USD
+- KPIs com salário médio, máximo, mediana e cargo mais frequente
+- Gráficos de barras, histograma, pizza, choropleth, boxplot e tendência ao longo do tempo
+- Dados detalhados em tabela filtrada
+
+## 🛠️ Stack principal
+
 - Python
 - Pandas
 - Streamlit
 - Plotly
 
-## ▶️ Como executar o projeto localmente
-### Pré-requisitos
-- Python instalado na máquina
+## ▶️ Como executar localmente
 
-### Passo a passo
-1. Clone este repositório: git clone 
-2. Crie um ambiente virtual de Pyhton: python3 -m venv .venv
-3. Ative o ambiente virtual:
-     em Windows: .venv\Scripts\Activate          em MAC/LINUX: source .venv/bin/activate
-4. Instale as bibliotecas necessárias: pip install -r requirements.txt
-5. Execute a aplicação: streamlit run app.py
-6. O arquivo principal é app.py, requirements.txt é um arquivo com as bibliotecas usadas e dados-imersao-final.csv é um arquivo com o dataframe
+### 1) Pré-requisitos
+
+- Python 3.11+
+- Git
+
+### 2) Clone o repositório
+
+```bash
+git clone https://github.com/seu-usuario/Imersao-de-dados-com-Python-Alura.git
+cd Imersao-de-dados-com-Python-Alura
+```
+
+### 3) Crie e ative um ambiente virtual
+
+Windows:
+
+```powershell
+python -m venv .venv
+.venv\Scripts\Activate
+```
+
+Linux/macOS:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+### 4) Instale as dependências
+
+```bash
+pip install -r requirements.txt
+```
+
+### 5) Execute o dashboard
+
+```bash
+streamlit run app.py
+```
+
+## 🧪 Validação
+
+Para executar os testes locais:
+
+```bash
+python -m unittest discover -s tests
+```
+
+## 📁 Estrutura do projeto
+
+- `app.py`: ponto de entrada da aplicação
+- `src/dashboard_app.py`: lógica principal, filtros e gráficos
+- `dados-imersao-final.csv`: conjunto de dados utilizado
+- `requirements.txt`: dependências da aplicação
+- `tests/`: testes automatizados
+- `.gitignore`: arquivos temporários e cache do ambiente
+
+## 📌 Observação
+
+A aplicação prioriza o arquivo local `dados-imersao-final.csv` e, se ele não estiver disponível, faz fallback para a fonte remota do projeto.
