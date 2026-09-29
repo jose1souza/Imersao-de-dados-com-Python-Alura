@@ -82,7 +82,3 @@ python -m unittest discover -s tests
 - `requirements.txt`: dependências da aplicação
 - `tests/`: testes automatizados
 - `.gitignore`: arquivos temporários e cache do ambiente
-
-## 📌 Observação
-
-A aplicação prioriza o arquivo local `dados-imersao-final.csv` e, se ele não estiver disponível, faz fallback para a fonte remota do projeto.
