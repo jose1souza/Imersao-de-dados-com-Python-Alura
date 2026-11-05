@@ -4,9 +4,9 @@ Este projeto foi desenvolvido durante a Imersão Dados com Python da Alura e ago
 
 ## 🚀 Dashboard online
 
-O projeto também está publicado no Streamlit:
+O projeto também está publicado no Render:
 
-https://imersao-de-dados-com-python-alura-jose-souza.streamlit.app/
+[](https://imersao-de-dados-com-python-alura.onrender.com)
 
 ## 🧠 Recursos da aplicação
 
