@@ -6,7 +6,7 @@ Este projeto foi desenvolvido durante a Imersão Dados com Python da Alura e ago
 
 O projeto também está publicado no Render:
 
-[](https://imersao-de-dados-com-python-alura.onrender.com)
+[(https://imersao-de-dados-com-python-alura.onrender.com)]
 
 ## 🧠 Recursos da aplicação
 
